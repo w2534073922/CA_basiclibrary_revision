@@ -1,0 +1,166 @@
+/**
+ * @component ex-u-capsules
+ */
+:root {
+  /**
+   * @type input
+   * @desc 胶囊字体大小
+   * @prefix capsules-capsule
+   */
+  --capsules-capsule-font-size: var(--font-size-base);
+
+  /**
+   * @type input
+   * @desc 胶囊垂直内边距
+   * @prefix capsules-capsule
+   */
+  --capsules-capsule-padding-x: 1px;
+
+  /**
+   * @type input
+   * @desc 胶囊水平内边距
+   * @prefix capsules-capsule
+   */
+  --capsules-capsule-padding-y: 32px;
+
+  /**
+   * @type color
+   * @desc 胶囊背景色
+   * @prefix capsules-capsule
+   */
+  --capsules-capsule-background: transparent;
+
+  /**
+   * @type color
+   * @desc 胶囊选中项背景色
+   * @prefix capsules-capsule
+   */
+  --capsules-capsule-background-selected: #FFF;
+
+  /**
+   * @type color
+   * @desc 胶囊选中项hover背景色
+   * @prefix capsules-capsule
+   */
+  --capsules-capsule-background-selected-hover: var(--brand-primary-light);
+
+  /**
+   * @type color
+   * @desc 胶囊选中项禁用背景色
+   * @prefix capsules-capsule
+   */
+  --capsules-capsule-background-selected-disabled: var(--brand-primary-disabled);
+
+  /**
+   * @type color
+   * @desc 胶囊禁用背景色
+   * @prefix capsules-capsule
+   */
+  --capsules-capsule-background-disabled: transparent;
+
+  /**
+   * @type color
+   * @desc 胶囊字体颜色
+   * @prefix capsules-capsule
+   */
+  --capsules-capsule-color: #53576A;
+
+  /**
+   * @type color
+   * @desc 胶囊hover字体颜色
+   * @prefix capsules-capsule
+   */
+  --capsules-capsule-color-hover: #1E1F27;
+
+  /**
+   * @type color
+   * @desc 胶囊选中项字体颜色
+   * @prefix capsules-capsule
+   */
+  --capsules-capsule-color-selected: #1E1F27;
+
+  /**
+   * @type color
+   * @desc 胶囊禁用字体颜色
+   * @prefix capsules-capsule
+   */
+  --capsules-capsule-color-disabled: var(--gray-base);
+
+  /**
+   * @type color
+   * @desc 胶囊选中项禁用字体颜色
+   * @prefix capsules-capsule
+   */
+  --capsules-capsule-color-selected-disabled: var(--color-white);
+
+  /**
+   * @type input
+   * @desc 胶囊鼠标样式
+   * @prefix capsules-capsule
+   */
+  --capsules-capsule-cursor: var(--cursor-pointer);
+
+  /**
+   * @type input
+   * @desc 胶囊禁用鼠标样式
+   * @prefix capsules-capsule
+   */
+  --capsules-capsule-cursor-disabled: var(--cursor-not-allowed);
+
+  /**
+   * @type color
+   * @desc 胶囊边框颜色
+   * @prefix capsules-capsule
+   */
+  --capsules-capsule-border-color: var(--border-color-base);
+
+  /**
+   * @type color
+   * @desc 胶囊hover边框颜色
+   * @prefix capsules-capsule
+   */
+  --capsules-capsule-border-color-hover: var(--brand-primary);
+
+  /**
+   * @type color
+   * @desc 胶囊选中项边框颜色
+   * @prefix capsules-capsule
+   */
+  --capsules-capsule-border-color-selected: var(--brand-primary);
+
+  /**
+   * @type color
+   * @desc 胶囊选中项hover边框颜色
+   * @prefix capsules-capsule
+   */
+  --capsules-capsule-border-color-selected-hover: var(--brand-primary-light);
+
+  /**
+   * @type color
+   * @desc 胶囊选中项禁用边框颜色
+   * @prefix capsules-capsule
+   */
+  --capsules-capsule-border-color-selected-disabled: var(--brand-primary-disabled);
+
+  /**
+   * @type color
+   * @desc 胶囊标记边框颜色
+   * @prefix capsules-capsule
+   */
+  --capsules-capsule-flag-border-color: var(--brand-danger);
+
+  /**
+   * @type color
+   * @desc 胶囊标签背景色
+   * @prefix capsules-capsule
+   */
+  --capsules-capsule-label-background: var(--brand-error);
+
+  /**
+   * @type color
+   * @desc 胶囊标签字体颜色
+   * @prefix capsules-capsule
+   */
+  --capsules-capsule-label-color: var(--color-white);
+
+}
