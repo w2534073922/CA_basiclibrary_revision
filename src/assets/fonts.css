@@ -1,0 +1,20 @@
+/*
+  NOTE: 该文件来自 `vue_library_radio_coreagent` 的 `assets/fonts.css`，
+  合并时保留以避免样式突变，但可能为全局性的覆盖（使用了 `*` 和 `!important`），
+  可在后续迭代中删除或改为组件作用域样式以降低全局影响。
+*/
+
+/* 防止Google Fonts请求的全局字体配置 */
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+/* 覆盖可能的Inter字体引用 */
+.inter, [class*="inter"], [style*="Inter"] {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+/* 覆盖可能的Roboto字体引用 */
+.roboto, [class*="roboto"], [style*="Roboto"] {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}

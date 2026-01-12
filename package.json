@@ -1,10 +1,10 @@
 {
-  "name": "vue_library_capsules_coreagent",
+  "name": "basic_component_library_customized",
   "private": "true",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "lcapIdeVersion": "3.10",
-  "title": "胶囊组件-coreagent",
-  "description": "Vue 依赖库demo",
+  "title": "CA定制版基础组件二开",
+  "description": "基础依赖库二开",
   "main": "dist-theme/index.js",
   "module": "dist-theme/index.mjs",
   "files": [
